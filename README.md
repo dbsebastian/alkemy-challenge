@@ -22,13 +22,13 @@ Este es un Proyecto-Challenge de evaluación para la aceleración de Alkemy.
 
 ```
 # Ejemplo
-conda create -n Nombre_del_projecto python
+conda create -n nombre_del_proyecto python
 ```  
 
 3. Una vez creado el entorno virtual, activarlo.
 ```
 # Ejemplo
-conda activate Nombre_del_projecto
+conda activate nombre_del_proyecto
 ```  
 
 4. Con el entorno virtual creado y activado, ejecutar **requirements.txt** para instalar las librerías que el proyecto necesita para ser ejecutado correctamente.
@@ -41,7 +41,7 @@ pip install -r requirements.txt
 
 ```
 
-5. Configurando el archivo **.env** que debe estar presente en el **/root** o **"Directorio Base"**.
+5. Debe crear un archivo llamado **".env"** en el directorio bases o **/root** del proyecto, dicho archivo contendrá información clave para poder conectar el proyecto con la base de datos.
 ```
 # contenido del archivo ".env" que debe estar presente en el "/root" del proyecto
 
@@ -51,7 +51,8 @@ POSTGRES_USER="" # Aquí, como string, debe ir el nombre del user de PgAdmin4
 PASSWORD=""      # Aquí, como string, debe ir el password, de la database de PgAdmin4 (no de la app)
 ```
 
-6. Hasta ahora, ya se configuró tanto las librerías necesarias, como la database y los datos necesarios para su conexión.
+6. Hasta ahora, ya se configuró tanto las librerías necesarias, como la database y los datos necesarios para su conexión.  
+
 7. Llegado a éste punto, sólo queda por ejecutar el archivo **"main.py"** presente en el directorio **"/alkemy"**
   
 
