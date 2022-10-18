@@ -154,3 +154,4 @@ cython_debug/
 
 /datos/
 /logs/log
+/logs/log.txt

@@ -5,8 +5,9 @@
 Este es un Proyecto-Challenge de evaluación para la aceleración de Alkemy.
 
 
-
-## Tabla de contenido
+########################
+## Tabla de contenido ##
+########################
 - [Enunciado - Intro]
 - [Instalación - Guía de uso]
 - [Sobre el proyecto]
@@ -58,23 +59,21 @@ Este es un Proyecto-Challenge de evaluación para la aceleración de Alkemy.
 
 6. Hasta ahora, ya se configuró tanto las librerías necesarias, como la database y los datos necesarios para su conexión.
 
-7. Debe crear la carpeta **"logs"** dentro del directorio **/root** o **"Directorio Base"** (github-no permite subir carpetas vacías)
-
-8. Llegado a éste punto, sólo queda por ejecutar el archivo **"main.py"** presente en el directorio **"/alkemy"**
+7. Llegado a éste punto, sólo queda por ejecutar el archivo **"main.py"** presente en el directorio **"/alkemy"**
 
 
 
-<div id='id-sobre-el'/>
-
-## Sobre el proyecto
+#######################
+## Sobre el proyecto ##
+#######################
 * El proyecto toma las URLs presentes en el archivo **"list of urls.txt"**, de la carpeta **"/alkemy/"**, dichas URLs están en el formato de una url por renglón, identificando de éstas los renglones vacíos de los que no, y a partir de estas URLs, darles el formato necesario para descargarlos de google sheets.
 * El proyecto creará la carpeta **"/datos/"** en los cuales se guardarán según puntos establecidos por el Challenge-Reto, los directorios correspondientes a cada archivo .csv que debe descargarse.
 * En la carpeta **"/sql_files/"** se guardan los **"".sql""** necesarios para crear las tablas en la base de datos.
 
 
-<div id='id-contacto'/>
-
-## Contacto
+##############
+## Contacto ##
+##############
 * Autor = Diego Sebastian Barrios
 * Email = sebastiann_db@gmail.com
 * [Linkedin](https://www.linkedin.com/in/dsebastianb)

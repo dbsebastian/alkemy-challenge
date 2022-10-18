@@ -57,9 +57,7 @@ PASSWORD=""      # Aquí, como string, debe ir el password, de la database de Pg
 
 6. Hasta ahora, ya se configuró tanto las librerías necesarias, como la database y los datos necesarios para su conexión.  
 
-7. Debe crear la carpeta **"logs"** dentro del directorio **/root** o **"Directorio Base"** (github-no permite subir carpetas vacías)
-
-8. Llegado a éste punto, sólo queda por ejecutar el archivo **"main.py"** presente en el directorio **"/alkemy"**
+7. Llegado a éste punto, sólo queda por ejecutar el archivo **"main.py"** presente en el directorio **"/alkemy"**
   
 
 

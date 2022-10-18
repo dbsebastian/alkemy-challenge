@@ -13,7 +13,7 @@ from logging.handlers import TimedRotatingFileHandler
 logger = logging.getLogger(__name__)
 
 # creacion del handler
-handler = TimedRotatingFileHandler(os.path.join(ROOT_DIR, "logs", "log"),
+handler = TimedRotatingFileHandler(os.path.join(ROOT_DIR, "logs", "log.txt"),
                                    when="m", interval=1, backupCount=1)
 
 # formato de los mensajes de logs creados
