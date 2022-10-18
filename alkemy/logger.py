@@ -7,7 +7,7 @@
 import os
 import logging
 
-from config.configs import ROOT_DIR
+from configs import ROOT_DIR
 from logging.handlers import TimedRotatingFileHandler
 
 logger = logging.getLogger(__name__)

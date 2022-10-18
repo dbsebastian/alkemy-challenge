@@ -11,7 +11,7 @@ import shutil
 import csv
 
 from alkemy.logger import logger
-from config.configs import ROOT_DIR
+from configs import ROOT_DIR
 
 
 def url_additament(url):

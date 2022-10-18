@@ -6,11 +6,11 @@
 """
 import os
 
-import extract as ext
-import transform as trm
-import load as lod
+import alkemy.extract as ext
+import alkemy.transform as trm
+import alkemy.load as lod
 
-from config.configs import ROOT_DIR
+from configs import ROOT_DIR
 from decouple import config
 from alkemy.logger import logger
 
@@ -24,7 +24,7 @@ def main():
     try:
 
         # path del .txt que contiene los links de descarga
-        path_txt = os.path.join(ROOT_DIR, "alkemy", "list of url.txt")
+        path_txt = os.path.join(ROOT_DIR, "list of url.txt")
 
         # crea un dict, con
         # key= nombre CATEGORIA

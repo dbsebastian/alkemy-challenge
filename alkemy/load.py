@@ -7,9 +7,11 @@
 import os
 
 from sqlalchemy import sql
-from alkemy.logger import logger
-from config.configs import ROOT_DIR
 from sqlalchemy import create_engine
+
+from alkemy.logger import logger
+
+from configs import ROOT_DIR
 
 
 def buscador_sql(string_sql):

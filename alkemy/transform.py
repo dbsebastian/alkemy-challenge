@@ -7,7 +7,8 @@
 import os
 import pandas as pd
 
-from config.configs import ROOT_DIR
+from configs import ROOT_DIR
+
 from alkemy.logger import logger
 
 
