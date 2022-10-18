@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef22594f-ffe7-427d-8b56-338f5efdc56e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/alkemy/extract.py" beforeDir="false" afterPath="$PROJECT_DIR$/alkemy/extract.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alkemy/list of url.txt" beforeDir="false" afterPath="$PROJECT_DIR$/list of url.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alkemy/load.py" beforeDir="false" afterPath="$PROJECT_DIR$/alkemy/load.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alkemy/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alkemy/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/alkemy/logger.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alkemy/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alkemy/transform.py" beforeDir="false" afterPath="$PROJECT_DIR$/alkemy/transform.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/configs.py" beforeDir="false" afterPath="$PROJECT_DIR$/configs.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,16 +31,18 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/el_se/PycharmProjects/alkemy_finnal",
+    "last_opened_file_path": "C:/Users/el_se/PycharmProjects/alkemy_finnal/config",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\el_se\PycharmProjects\alkemy_finnal\config" />
       <recent name="C:\Users\el_se\PycharmProjects\alkemy_finnal" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\el_se\PycharmProjects\alkemy_finnal" />
+      <recent name="C:\Users\el_se\PycharmProjects\alkemy_finnal\config" />
     </key>
   </component>
   <component name="RunManager" selected="Python.main (1)">
