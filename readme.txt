@@ -44,22 +44,24 @@ Este es un Proyecto-Challenge de evaluación para la aceleración de Alkemy.
 ```
 
 5. Debe crear un archivo llamado **".env"** en el directorio bases o **/root** del proyecto, dicho archivo contendrá información clave para poder conectar el proyecto con la base de datos.
+
+   - El contenido del archivo ".env" que debe estar presente en el "/root" del proyecto
 ```
-# contenido del archivo ".env" que debe estar presente en el "/root" del proyecto
-
->POSTGRES_HOST="" # Aquí, como string, debe ir el nombre del host de Pgadmin4
->POSTGRES_PORT="" # Aquí, como string, debe ir el número de host de PgAdmin4
->POSTGRES_USER="" # Aquí, como string, debe ir el nombre del user de PgAdmin4
->PASSWORD=""      # Aquí, como string, debe ir el password, de la database de PgAdmin4 (no de la app)
-
-# las aclaraciónes-comentarios, presentes luego de cada string de cada configuración
-# debe ser eliminado, quedando sólo las declaraciones de las variables y su string
-# de lo contrario se obtendrá un error.
+POSTGRES_HOST="" # Aquí, como string, debe ir el nombre del host de Pgadmin4
+POSTGRES_PORT="" # Aquí, como string, debe ir el número de host de PgAdmin4
+POSTGRES_USER="" # Aquí, como string, debe ir el nombre del user de PgAdmin4
+PASSWORD=""      # Aquí, como string, debe ir el password, de la database de PgAdmin4 (no de la app)
 ```
+   - Las aclaraciónes-comentarios, presentes luego de cada string de cada configuración debe ser eliminado, quedando sólo las declaraciones de las variables y su string de lo contrario se obtendrá un error.
 
-6. Hasta ahora, ya se configuró tanto las librerías necesarias, como la database y los datos necesarios para su conexión.
+6. Hasta ahora, ya se configuró tanto las librerías necesarias, como los datos necesarios para conectar la database.
 
-7. Llegado a éste punto, sólo queda por ejecutar el archivo **"main.py"** presente en el directorio **"/alkemy"**
+7. Llegado a éste punto, sólo queda por ejecutar el archivo **"main.py"** presente en el directorio **"/alkemy"**.
+   - Se testeó mediante cmd, ingresando al directorio **/root/** del proyecto, y luego ejecutando main.py
+```
+>cd path/to/root/
+>python main.py
+```
 
 
 
